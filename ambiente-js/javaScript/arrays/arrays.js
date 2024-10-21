@@ -46,7 +46,7 @@ export const aulaArrays = () => {
   //? map x foreach
 
   const produtoCopia = products.map((product) => {
-    return product;
+    product;
   });
 
   const produtoCopia2 = products.forEach((product) => {

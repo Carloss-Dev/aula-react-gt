@@ -3,5 +3,5 @@ import { aulaAsync } from "./async/aulaAsync.js";
 import { initContador } from "./contador/contador.js";
 
 // aulaAsync();
+initContador();
 // aulaArrays();
-// initContador();
