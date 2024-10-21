@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    "index.html": true,
+    "eslint.config.js": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "README.md": true,
+    "vite.config.js": true,
+    ".gitignore": true,
+    "public": true
+  }
+}
