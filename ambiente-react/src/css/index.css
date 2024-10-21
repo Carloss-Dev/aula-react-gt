@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: rgb(48, 46, 46);
+  color: white;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  cursor: pointer;
+  padding: 1rem;
+  background-color: steelblue;
+  border: none;
+  transition-duration: 0.3s;
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+  &:hover {
+    transform: scale(1.1);
+    letter-spacing: 1px;
+  }
+}
